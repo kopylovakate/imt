@@ -3,9 +3,9 @@ public class Main {
 
         BmiService service = new BmiService();
 
-        float rost = 1.87F;
-        int ves = 98;
-        int imt = service.calculate(rost, ves);
+        float height = 1.87F;
+        int weight = 98;
+        int imt = service.calculate(height, weight);
 
 
         System.out.println(imt);
